@@ -108,7 +108,7 @@ ul{
     transition: all 0.3s linear;
 }
 .heder_top_social ul li .fa:hover{
-    color: #36EA7F;
+    color: #D0FF00;
 }
 /*-------------------- 2 start banar part --------------------*/
 #banar{
@@ -180,14 +180,14 @@ ul{
     transition: all 0.3s linear;
 }
 .banar_text .btn_sp{
-    background: #36EA7F;
+    background: #D0FF00;
     color: #fff;
-    border-color: #36EA7F;
+    border-color: #D0FF00;
 }
 .banar_text button:hover{
-    background: #36EA7F;
+    background: #D0FF00;
     color: #fff;
-    border-color: #36EA7F;
+    border-color: #D0FF00;
 }
 /*-------------------- 3 start menu part --------------------*/
 .navbar-default {
@@ -210,7 +210,7 @@ ul{
 	transition: all 0.5s linear;
 }
 .navbar-brand span {
-	color: #36EA7F;
+	color: #D0FF00;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 900;
 	font-size: 38px;
@@ -247,7 +247,7 @@ ul{
 	/* top: 0; */
 	margin: auto;
 	content: "";
-	background: #36EA7F;
+	background: #D0FF00;
 	transition: all 0.3s linear;
 }
 .navbar-default .navbar-nav > li > a:hover:after,  .navbar-default .navbar-nav > .active > a:after{
@@ -288,9 +288,9 @@ ul{
 	margin-top: 9px;
 }
 .about_info button:hover{
-    background: #36EA7F;
+    background: #D0FF00;
     color: #222;
-    border-color: #36EA7F;
+    border-color: #D0FF00;
 }
 .about_video{
     position: relative;
@@ -360,11 +360,11 @@ ul{
     font-size: 15px;
 }
 .service_item:hover{
-    border-color: #36EA7F;
+    border-color: #D0FF00;
     cursor: pointer;
 }
 .service_item:hover .fa{
-    color: #36EA7F;
+    color: #D0FF00;
     transform: rotate(360deg);
 }
 /*-------------------- 6 start work_togather part --------------------*/
@@ -414,17 +414,17 @@ ul{
     padding-bottom: 10px;
 }
 .work_togather_content button {
-	border: 2px solid #36EA7F;
+	border: 2px solid #D0FF00;
 	background: transparent;
 	padding: 10px 24px;
-	color: #36EA7F;
+	color: #D0FF00;
 	text-transform: capitalize;
 	font-weight: 600;
 	letter-spacing: 1px;
 	transition: all 0.3s linear;
 }
 .work_togather_content button:hover{
-    background: #36EA7F;
+    background: #D0FF00;
     color: #222;
 }
 /*-------------------- 7 start team memeber part --------------------*/
@@ -484,8 +484,8 @@ ul{
 	transition: all 0.3s linear;
 }
 .team-social ul li .fa:hover{
-    border-color: #36EA7F;
-    background: #36EA7F;
+    border-color: #D0FF00;
+    background: #D0FF00;
     color: #222;
 }
 .team_item:hover{
@@ -525,7 +525,7 @@ ul{
 }
 .count_item h1{
     font-family: 'Merriweather', serif;
-    color: #36EA7F;
+    color: #D0FF00;
     margin: 0px;
     padding-bottom: 10px;
 }
@@ -557,9 +557,9 @@ ul{
     margin-top: 30px;
 }
 .portfolio-filter li.active{
-    background: #36EA7F;
+    background: #D0FF00;
     color: #222;
-    border-color: #36EA7F;
+    border-color: #D0FF00;
 }
 .singal-galary{
     position: relative;
@@ -579,7 +579,7 @@ ul{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	color: #36EA7F;
+	color: #D0FF00;
     transform: translate(-50%,-50%);
 }
 .singal-galary:hover .work_hover{
@@ -626,7 +626,7 @@ ul{
     padding-bottom: 6px;
 }
 .work_us_content h2 span{
-    color: #36EA7F;
+    color: #D0FF00;
 }
 .work_us_content p {
 	color: #ddd;
@@ -635,17 +635,17 @@ ul{
 	padding-bottom: 11px;
 }
 .work_us_content button {
-	border: 2px solid #36EA7F;
+	border: 2px solid #D0FF00;
 	background: transparent;
 	padding: 10px 24px;
-	color: #36EA7F;
+	color: #D0FF00;
 	text-transform: capitalize;
 	font-weight: 600;
 	letter-spacing: 1px;
 	transition: all 0.3s linear;
 }
 .work_us_content button:hover{
-    background: #36EA7F;
+    background: #D0FF00;
     color: #222;
 }
 /*-------------------- 11 start testmonial part --------------------*/
@@ -692,7 +692,7 @@ ul{
 .testmonial_info span {
 	margin-top: 9px;
 	display: block;
-    color: #36EA7F;
+    color: #D0FF00;
 }
 .testmonial_active .owl-dots {
 	text-align: center;
@@ -708,8 +708,8 @@ ul{
     transition: all 0.3s linear;
 }
 .testmonial_active .owl-dot.active{
-    background: #36EA7F;
-    border-color: #36EA7F;
+    background: #D0FF00;
+    border-color: #D0FF00;
 }
 /*-------------------- 12 start video part --------------------*/
 #video{
@@ -750,7 +750,7 @@ ul{
     margin: 0px;
 }
 .video_content h3 span{
-    color: #36EA7F;
+    color: #D0FF00;
 }
 .video_content .fa {
 	font-size: 66px;
@@ -760,7 +760,7 @@ ul{
     transition: all 0.3s linear;
 }
 .video_content .fa:hover{
-    color: #36EA7F;
+    color: #D0FF00;
 }
 /*-------------------- 13 start blog part --------------------*/
 #blog {
@@ -783,7 +783,7 @@ ul{
 .blog_date {
 	height: 58px;
 	width: 59px;
-	background: #36EA7F;
+	background: #D0FF00;
 	position: absolute;
 	top: 0;
 	text-align: center;
@@ -834,7 +834,7 @@ ul{
     transition: all 0.3s linear;
 }
 .blog_btn a:hover{
-    color: #36EA7F;
+    color: #D0FF00;
 }
 .blog_btn a:hover .fa{
     padding-left: 6px;
@@ -858,14 +858,14 @@ ul{
 .packeg_name{}
 .packeg_name h3 {
 	margin: 0px;
-	color: #36EA7F;
+	color: #D0FF00;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 23px;
 	padding: 20px 0px;
 }
 .packeg_amout  {
-	background: #36EA7F;
+	background: #D0FF00;
 	padding: 10px 0px;
 }
 .packeg_amout h5{
@@ -881,7 +881,7 @@ ul{
 }
 .packeg_feater ul li {
 	padding-bottom: 11px;
-	border-bottom: 1px dotted #36EA7F;
+	border-bottom: 1px dotted #D0FF00;
 	margin-bottom: 6px;
 }
 .packeg_btn {
@@ -899,9 +899,9 @@ ul{
 	box-shadow: 0px 0px 25px rgba(0,0,0,0.4);
 }
 .packeg_btn button:hover{
-    background: #36EA7F;
+    background: #D0FF00;
     color: #fff;
-    border-color: #36EA7F;
+    border-color: #D0FF00;
 }
 /*-------------------- 15 start brand part --------------------*/
 #brand{
@@ -954,8 +954,8 @@ ul{
 	top: 11px;
 }
 .news_item button{
-    border: 1px solid #36EA7F;
-    color: #36EA7F;
+    border: 1px solid #D0FF00;
+    color: #D0FF00;
     padding: 10px 20px;
     background: transparent;
     text-transform: capitalize;
@@ -963,7 +963,7 @@ ul{
     letter-spacing: 1px;
 }
 .news_item button:hover{
-    background: #36EA7F;
+    background: #D0FF00;
     color: #fff;
 }
 /*-------------------- 17 start contact part --------------------*/
@@ -1014,8 +1014,8 @@ ul{
 	border: 1px solid #e5e5e5;
 }
 .contact_form form button{
-    background: #36EA7F;
-    border: 1px solid #36EA7F;
+    background: #D0FF00;
+    border: 1px solid #D0FF00;
     color: #fff;
     padding: 10px 20px;
     margin: 0 auto;
@@ -1026,8 +1026,8 @@ ul{
 }
 .contact_form form button:hover{
     background: transparent;
-    color: #36EA7F;
-    border-color: #36EA7F;
+    color: #D0FF00;
+    border-color: #D0FF00;
 }
 .contcat_info {
 	padding-left: 55px;
@@ -1042,7 +1042,7 @@ ul{
     color: #444;
 }
 .contcat_info > ul li .fa {
-	color: #36EA7F;
+	color: #D0FF00;
 	font-size: 17px;
 	padding-right: 10px;
 	position: relative;
@@ -1073,8 +1073,8 @@ ul{
     margin-left: 0px;
 }
 .fllow_info ul li .fa:hover{
-    background: #36EA7F;
-    border-color: #36EA7F;
+    background: #D0FF00;
+    border-color: #D0FF00;
     color: #fff;
 }
 /*-------------------- 18 start footer part --------------------*/
@@ -1089,7 +1089,7 @@ footer{
 	font-size: 20px;
 }
 .footer_logo h1 span {
-	color: #36EA7F;
+	color: #D0FF00;
 	font-size: 36px;
 	font-weight: 900;
 	padding-right: 3px;
@@ -1103,7 +1103,7 @@ footer{
 	font-size: 16px;
 }
 .footer_copy p span{
-    color: #36EA7F;
+    color: #D0FF00;
 }
 .footer_social ul li{
     display: inline-block;
@@ -1122,7 +1122,7 @@ footer{
     margin-right: 0px;
 }
 .footer_social ul li .fa:hover{
-    color: #36EA7F;
+    color: #D0FF00;
 }
 /*-------------------- 19 start scroll_top part --------------------*/
 #scroll_top {
@@ -1132,7 +1132,7 @@ footer{
 	background: #333;
 	top: -24px;
 	right: 11px;
-	color: #36EA7F;
+	color: #D0FF00;
 	text-align: center;
 	line-height: 50px;
 	font-size: 29px;
@@ -1193,7 +1193,7 @@ footer{
   position: absolute;
   top: -5px;
   left: -5px;
-  background-color: #36EA7F;
+  background-color: #D0FF00;
   -webkit-animation: cube-transition 1.6s 0s infinite ease-in-out;
   animation: cube-transition 1.6s 0s infinite ease-in-out; }
   .cube-transition > div:last-child {
@@ -1247,7 +1247,7 @@ footer{
 	    background-color: transparent;
     }
     .navbar-default .navbar-toggle .icon-bar {
-	    background-color: #36EA7F;
+	    background-color: #D0FF00;
     }
     .navbar-default .navbar-nav > li > a::after{
         display: none;
@@ -1256,7 +1256,7 @@ footer{
         text-align: center;
     }
     .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-        color: #36EA7F;
+        color: #D0FF00;
         background-color: transparent;
     }
     .about_info h1 {
@@ -1364,7 +1364,7 @@ footer{
         background: #333;
         top: -19px;
         right: 0;
-        color: #36EA7F;
+        color: #D0FF00;
         text-align: center;
         line-height: 40px;
         font-size: 29px;
