@@ -1,6 +1,6 @@
 (function($) {
 'use strict';
-var khan2 = $(window);
+var hunter = $(window);
     /*-- jqury video popup -- */
     jQuery("a.bla-1").YouTubePopUp();
     /*-- jqury video popup -- */
@@ -102,4 +102,11 @@ var khan2 = $(window);
       });
     }
     });
+    /*--------------------------
+	 preloader js active
+	---------------------------- */
+	hunter.on("load", function() {
+        $(".loader").addClass('out');
+    });
+    
 })(jQuery);
