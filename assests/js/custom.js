@@ -1,6 +1,6 @@
 (function($) {
 'use strict';
-var Mohammad Ayoub Khan = $(window);
+var khan = $(window);
     /*-- jqury video popup -- */
     jQuery("a.bla-1").YouTubePopUp();
     /*-- jqury video popup -- */
@@ -105,7 +105,7 @@ var Mohammad Ayoub Khan = $(window);
     /*--------------------------
 	 preloader js active
 	---------------------------- */
-	Mohammad Ayoub Khan.on("load", function() {
+	khan.on("load", function() {
         $(".loader").addClass('out');
     });
     
