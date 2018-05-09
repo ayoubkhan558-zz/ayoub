@@ -337,6 +337,7 @@ ul{
 }
 .service_item {
 	margin-bottom: 30px;
+    background-color: #fff;
 	border: 1px solid transparent;
 	transition: all 0.3s linear;
 	padding: 13px 25px;
@@ -344,6 +345,7 @@ ul{
 .service_item .fa {
 	font-size: 25px;
 	color: #666;
+    text-align: center;
     transition: all 0.3s linear;
 }
 .service_item h2 {
