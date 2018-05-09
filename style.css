@@ -337,7 +337,8 @@ ul{
 }
 .service_item {
 	margin-bottom: 30px;
-    background-color: #fff;
+    text-align: center;
+    background: #fff;
 	border: 1px solid transparent;
 	transition: all 0.3s linear;
 	padding: 13px 25px;
