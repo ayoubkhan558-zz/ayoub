@@ -102,11 +102,4 @@ var khan2 = $(window);
       });
     }
     });
-    /*--------------------------
-	 preloader js active
-	---------------------------- */
-	khan.on("load", function() {
-        $(".loader").addClass('out');
-    });
-    
 })(jQuery);
