@@ -1,6 +1,6 @@
 (function($) {
 'use strict';
-var khan = $(window);
+var khan2 = $(window);
     /*-- jqury video popup -- */
     jQuery("a.bla-1").YouTubePopUp();
     /*-- jqury video popup -- */
