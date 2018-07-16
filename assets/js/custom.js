@@ -249,14 +249,14 @@ $('.first.circle').circleProgress({
 
 
   $('.second.circle').circleProgress({
-    value: 0.75,
+    value: 0.85,
     fill: {gradient: [['#0681c4', .5], ['#26a69a', .5]], gradientAngle: Math.PI / 4}
   }).on('circle-animation-progress', function(event, progress, stepValue) {
   });
 
     $('.third.circle').circleProgress({
-    value: 0.4,
-    fill: {gradient: [['#0681c4', .5], ['#ef5350', .5]], gradientAngle: Math.PI / 4}
+    value: 0.89,
+    fill: {gradient: [['#0681c4', .5], ['#0681c4', .5]], gradientAngle: Math.PI / 4}
   }).on('circle-animation-progress', function(event, progress, stepValue) {
   });
 // external js: isotope.pkgd.js

@@ -670,6 +670,10 @@ ul.side-nav li.sn-item > a > i {
 .personal-details-area {
   margin-bottom: 60px;
 }
+.aboutme-section ul li {
+  color: #8e8d8d;
+  list-style-type: disc !important;
+}
 .aboutme-section ul.service-list li {
   width: 200px;
   height: 200px;
@@ -681,7 +685,7 @@ ul.side-nav li.sn-item > a > i {
   background-color: #2c2c2c;
   box-shadow: 0px 10px 40px 0px rgba(1, 1, 1, 0.1);
 }
-.aboutme-section ul.service-list li:before {
+.aboutme-section ul.service-list li::before {
   left: 0;
   right: 0;
   bottom: 0;
@@ -1956,3 +1960,27 @@ body.clearfix.chooser {
     left: 47px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////// */
+.mt-0{
+  margin-top: 0 !important;
+}
+.mb-4{
+  margin-bottom: 30px;
+}
