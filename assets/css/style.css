@@ -927,14 +927,23 @@ ul.side-nav li.sn-item > a > i {
 }
 }
 
-@-webkit-keyframes Rx-width-60 {
- 0% {
-  width: 0%;
-}
+@-webkit-keyframes Rx-width-50 {
+   0% {
+    width: 0%;
+  }
 
-100% {
-  width: 65%;
+  100% {
+    width: 55%;
+  }
 }
+@-webkit-keyframes Rx-width-60 {
+   0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 65%;
+  }
 }
 
 @-webkit-keyframes Rx-width-75 {
@@ -992,6 +1001,13 @@ ul.side-nav li.sn-item > a > i {
   -webkit-animation-name: Rx-width-90;
   -o-animation-name: Rx-width-90;
   animation-name: Rx-width-90;
+  animation-fill-mode: forwards;
+}
+
+.Rx-width-50 {
+  -webkit-animation-name: Rx-width-50;
+  -o-animation-name: Rx-width-50;
+  animation-name: Rx-width-50;
   animation-fill-mode: forwards;
 }
 
@@ -1469,7 +1485,7 @@ ul.brand-list li:hover > a {
 }
 .experience-left-item-area {
   z-index: 1;
-  height: 820px;
+  height: 550px;
   padding: 0px 30px;
   overflow-y: scroll;
 }
