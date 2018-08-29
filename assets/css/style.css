@@ -43,6 +43,9 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Raleway', sans-serif; }
 
 /*  - 2 - global area start
 ==================================================================================================== */
+.text-center {
+  text-align: center;
+}
 * { box-sizing: border-box; }
 body, html {
   margin: 0;
@@ -117,7 +120,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.hover-items li:hover {
+  color: #EEEEEE;
+}
 /* - padding / margin setting start
 ================================================== */
 .p-0 { padding: 0px; }
@@ -318,6 +323,9 @@ a {
 .marketing-bg { background-color: #ab47bc; }
 .marketing-color { color: #ab47bc; }
 
+.ajax-bg { background-color: #FF00AE; }
+.ajax-color { color: #FF00AE; }
+
 /* - 2 - global area end
 ==================================================================================================== */
 
@@ -343,6 +351,11 @@ a {
   padding: 40px 0px;
   position: relative;
   margin-bottom: 40px;
+}
+.mobile-profile-image img{
+  position: absolute;
+  top: 14px;
+  left: 10px;
 }
 .fixed-left-side-body .profile-image {
   padding: 0px 40px 0px 40px;
@@ -740,19 +753,19 @@ ul.side-nav li.sn-item > a > i {
 
 /* ---------- colorzzz ---------- */
 .aboutme-section ul.service-list li.logodesign > i {color: #2196f3;}
-.aboutme-section ul.service-list li.logodesign:before {background-color: #2196f3;}
+.aboutme-section ul.service-list li.logodesign::before {background-color: #2196f3;}
 .aboutme-section ul.service-list li.logodesign > a.more {background-color: #2196f3;}
 
 .aboutme-section ul.service-list li.website > i {color: #ef5350;}
-.aboutme-section ul.service-list li.website:before {background-color: #ef5350;}
+.aboutme-section ul.service-list li.website::before {background-color: #ef5350;}
 .aboutme-section ul.service-list li.website > a.more {background-color: #ef5350;}
 
 .aboutme-section ul.service-list li.softwares > i {color: #fbc02d;}
-.aboutme-section ul.service-list li.softwares:before {background-color: #fbc02d;}
+.aboutme-section ul.service-list li.softwares::before {background-color: #fbc02d;}
 .aboutme-section ul.service-list li.softwares > a.more {background-color: #fbc02d;}
 
 .aboutme-section ul.service-list li.applications > i {color: #ab47bc;}
-.aboutme-section ul.service-list li.applications:before {background-color: #ab47bc;}
+.aboutme-section ul.service-list li.applications::before {background-color: #ab47bc;}
 .aboutme-section ul.service-list li.applications > a.more {background-color: #ab47bc;}
 
 
@@ -833,6 +846,61 @@ ul.side-nav li.sn-item > a > i {
   background-color:#ffffff;
   color:#000000;
 }
+/* // About me STYLE LISTS*/
+/* ///////////////////////////////////// */
+.aboutme-section .styled-div2 {
+  width: 100%;
+  padding: 8px 10px;
+  background: #1B1B1B;
+  border-bottom: 5px solid #424242;
+}
+.aboutme-section .styled-t-p {
+  list-style-type: square;
+  list-style: square inside url("../img/lists-style-1.png");
+  list-style-position: inside;
+}
+.aboutme-section .styled-t-p li {
+  width: 100%;
+  padding: 8px 10px;
+  background: #2C2C2C;
+  color: #ACACAC;
+  font-size: 16px;
+  border-bottom: 1px solid #424242;
+}
+.aboutme-section .styled-t-p li:nth-child(odd){
+  background: #212121;
+}
+
+.aboutme-section .styled-t-p li:nth-child(even){
+  background: #2C2C2C;
+}
+
+.aboutme-section .styled-p {
+  width: 100%;
+  margin: 0px;
+  padding: 8px 10px;
+  background: #2C2C2C;
+  display: table;
+  color: #ACACAC;
+  font-size: 16px;
+  border-bottom: 1px solid #424242;
+}
+.aboutme-section .styled-p > span.icon {
+  float: left;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  border-right: 1px solid #424242;
+}
+.aboutme-section .styled-p i {
+  margin: 0;
+  float: none;
+  line-height: 40px;
+  display: inline-block;
+}
+
+
 /* - 4.3 - aboutme-section end
 ================================================== */
 
@@ -948,14 +1016,33 @@ ul.side-nav li.sn-item > a > i {
 }
 
 @-webkit-keyframes Rx-width-75 {
- 0% {
-  width: 0%;
+   0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
+  }
 }
 
-100% {
-  width: 75%;
+
+@-webkit-keyframes Rx-width-25 {
+   0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 25%;
+  }
 }
+
+.Rx-width-25 {
+  -webkit-animation-name: Rx-width-25;
+  -o-animation-name: Rx-width-25;
+  animation-name: Rx-width-25;
+  animation-fill-mode: forwards;
 }
+
 
 @keyframes Rx-width-75 {
  0% {
