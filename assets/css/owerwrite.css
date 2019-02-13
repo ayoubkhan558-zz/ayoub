@@ -1,20 +1,20 @@
 /* // Completed / FINAL */
 .circle strong {
-    color: #000;
+    color: #000 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #000;
+    color: #000 !important;
 }
 .professional-skills-area ul.skills-tab {
-    background: #fff;
+    background: #fff !important;
 }
 .professional-skills-area ul.skills-tab li.tag-item a {
-    color: #000;
+    color: #000 !important;
 }
 .professional-skills-area ul.skills-tab li.tag-item a:hover {
-    background: #faf8f8;
-    box-shadow: none;
+    background: #faf8f8 !important;
+    box-shadow: none !important;
 }
 
 /* // Same Category  */
@@ -23,22 +23,22 @@ h1, h2, h3, h4, h5, h6 {
 .software-tools ul.tags li.tag-icon,
 .software-tools ul.tags li:hover,
 .contact-me-section .contact-left .cont-item {
-    background-color: rgba(0, 0, 0, 0.06);
-    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.06) !important;
+    box-shadow: none !important;
 }
 /* // End */
 
 .aboutme-section ul.service-list li {
-    background: #10101021;
+    background: #10101021 !important;
 }
 .aboutme-section ul.service-list li > span.service-name {
-    color: #000;
+    color: #000 !important;
 }
 body, html {
-    background-color: #e6ecf0;
-    padding: 30px;
+    background-color: #e6ecf0 !important;
+    padding: 30px !important;
     /* padding-top: 0; */
-    font-size: 15px;
+    font-size: 15px !important;
 }
 /* // Completed / FINAL */
 /* //////////////////////////////////////// */
@@ -48,102 +48,102 @@ body, html {
 
 .main-slider .item-child-left p.name,
 .main-slider .item-child-left small.position {
-    color: #000;
+    color: #000 !important;
 }
 
 .education-section .accordion {
-    box-shadow: none;
+    box-shadow: none !important;
 }
 p, ul.ul-li, ul.ul-li li, ul.ul-li li a {
-    color: #555353;
+    color: #555353 !important;
 }
 
 .education-section .accordion .accordion-header,
 .education-section .accordion .accordion-body {
-    border-bottom: 1px solid #dbd6d6;
+    border-bottom: 1px solid #dbd6d6 !important;
 }
 .education-section .accordion .accordion-body {
-    border-top: 1px solid #dbd6d6;
+    border-top: 1px solid #dbd6d6 !important;
 }
 nav .nav-wrapper,
 .hello_menu_fixed_main_wrapper {
-    background-color: #fff;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #fff !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important;
 }
 .header-section nav.main-nav {
-    height: 50px;
-    line-height: 50px;
+    height: 50px !important;
+    line-height: 50px !important;
 }
 .hello_logo img {
-    height: 30px;
+    height: 30px !important;
 }
 .header-section nav.main-nav ul > li > a {
-    color: #000;
+    color: #000 !important;
 }
 .my-portfolio-section .button-group .button {
-    color: #000;
+    color: #000 !important;
 }
 .fixed-left-side-body .discription {
-    border-top: 1px solid #e6ecf0;
-    border-bottom: 1px solid #e6ecf0;
-    margin-bottom: 20px;
+    border-top: 1px solid #e6ecf0 !important;
+    border-bottom: 1px solid #e6ecf0 !important;
+    margin-bottom: 20px !important;
 }
 .fixed-left-side-body .profile-image {
-    padding: 0px 40px 0px 40px;
+    padding: 0px 40px 0px 40px !important;
 }
 .discription p {
-    font-size: 14px;
+    font-size: 14px !important;
 }
 .fixed-left-side-body .profile {
-    padding: 20px 0px;
+    padding: 20px 0px !important;
 }
 .fixed-left-side-body .profile-name {
-    padding: 10px 0px;
+    padding: 10px 0px !important;
     margin-bottom: 0 !important;
 }
 .fixed-left-side-body {
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
 }
 .fixed-left-side-body .cv-btn {
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
 }
 .fixed-left-side-body .profile-name,
 .education-section .accordion .accordion-body,
 #graphicdesign, #software-tools, #photography, #technology, #design, #webdevelopment, #application,
 .main-slider .item {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 
 /* // About Me SECTION */
 .aboutme-section .styled-t-p li:nth-child(odd) {
-    background: #fff;
+    background: #fff !important;
 }
 .aboutme-section .styled-t-p li:nth-child(even) {
-    background: rgba(247, 244, 244, 0.5);
+    background: rgba(247, 244, 244, 0.5) !important;
 }
 .aboutme-section .styled-t-p li {
-    border-bottom: 1px solid #ACACAC;
+    border-bottom: 1px solid #ACACAC !important;
 }
 .aboutme-section .styled-t-p li {
-    background: rgb(240, 235, 235);
-    color: #000;
+    background: rgb(240, 235, 235) !important;
+    color: #000 !important;
 }
 .aboutme-section .styled-div2 {
-    background: rgb(228, 222, 222);
+    background: rgb(228, 222, 222) !important;
 }
 .aboutme-section .personal-details-right > table td {
-    color: rgba(0, 0, 0, 0.733);
+    color: rgba(0, 0, 0, 0.733) !important;
 }
 
 .fixed-left-side-body .profile-name h1.user-name {
-    font-size: 25px;
+    font-size: 25px !important;
 }
 ul.social-btn {
-    background: #fff;
-    padding: 10px 0px;
+    background: #fff !important;
+    padding: 10px 0px !important;
 }
 b, strong {
-    color: #000;
+    color: #000 !important;
 }
 /* // Dulp */
 .fixed-left-side-body {
@@ -151,16 +151,16 @@ b, strong {
 }
 /* // Dulp */
 .sec-p100-bg-bs {
-    background-color: rgb(165, 158, 158);
-    border: 1px solid rgba(0,0,0,0.1);
+    background-color: rgb(165, 158, 158) !important;
+    border: 1px solid rgba(0,0,0,0.1) !important;
 }
 /* // Dulp */
 .footer-section {
-    background-color: #9b9696;
+    background-color: #9b9696 !important;
 }
 /* // Dulp */
 .backtotop {
-    background-color: #9b9696;
+    background-color: #9b9696 !important;
 }
 
 .fixed-left-side-body,
