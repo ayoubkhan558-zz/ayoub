@@ -1,0 +1,173 @@
+/* // Completed / FINAL */
+.circle strong {
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
+.professional-skills-area ul.skills-tab {
+    background: #fff;
+}
+.professional-skills-area ul.skills-tab li.tag-item a {
+    color: #000;
+}
+.professional-skills-area ul.skills-tab li.tag-item a:hover {
+    background: #faf8f8;
+    box-shadow: none;
+}
+
+/* // Same Category  */
+.collapsible-header,
+.my-portfolio-section .button-group,
+.software-tools ul.tags li.tag-icon,
+.software-tools ul.tags li:hover,
+.contact-me-section .contact-left .cont-item {
+    background-color: rgba(0, 0, 0, 0.06);
+    box-shadow: none;
+}
+/* // End */
+
+.aboutme-section ul.service-list li {
+    background: #10101021;
+}
+.aboutme-section ul.service-list li > span.service-name {
+    color: #000;
+}
+body, html {
+    background-color: #e6ecf0;
+    padding: 30px;
+    /* padding-top: 0; */
+    font-size: 15px;
+}
+/* // Completed / FINAL */
+/* //////////////////////////////////////// */
+.experience-left {
+    background-color: #faf8f8;
+}
+
+.main-slider .item-child-left p.name,
+.main-slider .item-child-left small.position {
+    color: #000;
+}
+
+.education-section .accordion {
+    box-shadow: none;
+}
+p, ul.ul-li, ul.ul-li li, ul.ul-li li a {
+    color: #555353;
+}
+
+.education-section .accordion .accordion-header,
+.education-section .accordion .accordion-body {
+    border-bottom: 1px solid #dbd6d6;
+}
+.education-section .accordion .accordion-body {
+    border-top: 1px solid #dbd6d6;
+}
+nav .nav-wrapper,
+.hello_menu_fixed_main_wrapper {
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.header-section nav.main-nav {
+    height: 50px;
+    line-height: 50px;
+}
+.hello_logo img {
+    height: 30px;
+}
+.header-section nav.main-nav ul > li > a {
+    color: #000;
+}
+.my-portfolio-section .button-group .button {
+    color: #000;
+}
+.fixed-left-side-body .discription {
+    border-top: 1px solid #e6ecf0;
+    border-bottom: 1px solid #e6ecf0;
+    margin-bottom: 20px;
+}
+.fixed-left-side-body .profile-image {
+    padding: 0px 40px 0px 40px;
+}
+.discription p {
+    font-size: 14px;
+}
+.fixed-left-side-body .profile {
+    padding: 20px 0px;
+}
+.fixed-left-side-body .profile-name {
+    padding: 10px 0px;
+    margin-bottom: 0 !important;
+}
+.fixed-left-side-body {
+    margin-bottom: 50px;
+}
+.fixed-left-side-body .cv-btn {
+    margin-bottom: 25px;
+}
+.fixed-left-side-body .profile-name,
+.education-section .accordion .accordion-body,
+#graphicdesign, #software-tools, #photography, #technology, #design, #webdevelopment, #application,
+.main-slider .item {
+    background-color: #ffffff;
+}
+
+/* // About Me SECTION */
+.aboutme-section .styled-t-p li:nth-child(odd) {
+    background: #fff;
+}
+.aboutme-section .styled-t-p li:nth-child(even) {
+    background: rgba(247, 244, 244, 0.5);
+}
+.aboutme-section .styled-t-p li {
+    border-bottom: 1px solid #ACACAC;
+}
+.aboutme-section .styled-t-p li {
+    background: rgb(240, 235, 235);
+    color: #000;
+}
+.aboutme-section .styled-div2 {
+    background: rgb(228, 222, 222);
+}
+.aboutme-section .personal-details-right > table td {
+    color: rgba(0, 0, 0, 0.733);
+}
+
+.fixed-left-side-body .profile-name h1.user-name {
+    font-size: 25px;
+}
+ul.social-btn {
+    background: #fff;
+    padding: 10px 0px;
+}
+b, strong {
+    color: #000;
+}
+/* // Dulp */
+.fixed-left-side-body {
+    background-color: #f1a9f1 !important;
+}
+/* // Dulp */
+.sec-p100-bg-bs {
+    background-color: rgb(165, 158, 158);
+    border: 1px solid rgba(0,0,0,0.1);
+}
+/* // Dulp */
+.footer-section {
+    background-color: #9b9696;
+}
+/* // Dulp */
+.backtotop {
+    background-color: #9b9696;
+}
+
+.fixed-left-side-body,
+.sec-p100-bg-bs,
+.footer-section,
+.backtotop {
+    background-color: #fff !important;
+}
+
+
