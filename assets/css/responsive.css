@@ -117,7 +117,7 @@ custom - media screen and (max-width: 1366px) Start
 	.main-slider .item-child-right {
 		width: 280px;
 		height: 280px;
-		margin: 26px 0px;
+		margin: 0px 0px;
 	}
 
 	.aboutme-section ul.service-list li {
