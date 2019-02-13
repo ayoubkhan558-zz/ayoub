@@ -171,3 +171,8 @@ b, strong {
 }
 
 
+
+.button.custom-btn, a.custom-btn {
+    height: 55px;
+    line-height: 55px;
+}
