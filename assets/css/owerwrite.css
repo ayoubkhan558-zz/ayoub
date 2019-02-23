@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: none !important;
 }
 /* // End */
-.aboutme-section {
+.aboutme-section .success {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
