@@ -78,8 +78,15 @@ nav .nav-wrapper,
     height: 30px !important;
 }
 .header-section nav.main-nav ul > li > a {
-    color: #000 !important;
+    color: #000;
 }
+.header-section nav.main-nav ul > li.active > a {
+    color: #fff !important;
+}
+.hello_fixed_nav_wrapper ul li a:hover, .hello_fixed_nav_wrapper ul li.active a {
+    background: #2196f394;
+}
+
 .my-portfolio-section .button-group .button {
     color: #000 !important;
 }
@@ -129,7 +136,8 @@ nav .nav-wrapper,
     color: #000 !important;
 }
 .aboutme-section .styled-div2 {
-    background: rgb(228, 222, 222) !important;
+    background: rgba(228, 222, 222, 0.59) !important;
+    border-bottom: 5px solid #a5a3a3;
 }
 .aboutme-section .personal-details-right > table td {
     color: rgba(0, 0, 0, 0.733) !important;
