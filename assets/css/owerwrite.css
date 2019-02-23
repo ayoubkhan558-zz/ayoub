@@ -27,6 +27,11 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: none !important;
 }
 /* // End */
+.aboutme-section {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
 
 .aboutme-section ul.service-list li {
     background: #10101021 !important;
