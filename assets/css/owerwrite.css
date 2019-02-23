@@ -121,6 +121,11 @@ nav .nav-wrapper,
 }
 
 /* // About Me SECTION */
+.aboutme-section .success a.hire-me {
+    height: 50px !important;
+    line-height: 50px !important;
+}
+
 .aboutme-section .styled-t-p li:nth-child(odd) {
     background: #fff !important;
 }
@@ -140,6 +145,9 @@ nav .nav-wrapper,
 }
 .aboutme-section .personal-details-right > table td {
     color: rgba(0, 0, 0, 0.733) !important;
+}
+.aboutme-section .success p {
+    color: #fff !important;
 }
 
 .fixed-left-side-body .profile-name h1.user-name {
