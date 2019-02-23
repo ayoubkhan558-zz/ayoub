@@ -50,10 +50,6 @@ body, html {
 .main-slider .item-child-left small.position {
     color: #000 !important;
 }
-ul.social-btn li {
-    opacity: 0.5 !important;
-    
-}
 .education-section .accordion {
     box-shadow: none !important;
 }
@@ -186,4 +182,9 @@ b, strong {
 .button.custom-btn, a.custom-btn {
     height: 55px;
     line-height: 55px;
+}
+
+ul.social-btn li {
+    opacity: 0.5 !important;
+    
 }
