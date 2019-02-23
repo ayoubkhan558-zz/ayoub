@@ -50,7 +50,10 @@ body, html {
 .main-slider .item-child-left small.position {
     color: #000 !important;
 }
-
+ul.social-btn li {
+    opacity: 0.5;
+    
+}
 .education-section .accordion {
     box-shadow: none !important;
 }
