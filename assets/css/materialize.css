@@ -2162,7 +2162,7 @@ body {
 }
 
 /* HTML5 display definitions
-   ========================================================================== */
+   ================================ */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
  * Correct `block` display not defined for `details` or `summary` in IE 10/11
@@ -2218,7 +2218,7 @@ template {
 }
 
 /* Links
-   ========================================================================== */
+   ================================ */
 /**
  * Remove the gray background color from active links in IE 10.
  */
@@ -2236,7 +2236,7 @@ a:hover {
 }
 
 /* Text-level semantics
-   ========================================================================== */
+   ================================ */
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
@@ -2304,7 +2304,7 @@ sub {
 }
 
 /* Embedded content
-   ========================================================================== */
+   ================================ */
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
@@ -2320,7 +2320,7 @@ svg:not(:root) {
 }
 
 /* Grouping content
-   ========================================================================== */
+   ================================ */
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
@@ -2355,7 +2355,7 @@ samp {
 }
 
 /* Forms
-   ========================================================================== */
+   ================================ */
 /**
  * Known limitation: by default, Chrome and Safari on OS X allow very limited
  * styling of `select`, unless a `border` property is set.
@@ -2521,7 +2521,7 @@ optgroup {
 }
 
 /* Tables
-   ========================================================================== */
+   ================================ */
 /**
  * Remove most spacing between table cells.
  */
@@ -5716,7 +5716,7 @@ label {
 }
 
 /* Text Inputs + Textarea
-   ========================================================================== */
+   ================================ */
 /* Style Placeholders */
 ::-webkit-input-placeholder {
   color: #d1d1d1;
@@ -6175,7 +6175,7 @@ textarea.materialize-textarea {
 }
 
 /* Radio Buttons
-   ========================================================================== */
+   ================================ */
 [type="radio"]:not(:checked),
 [type="radio"]:checked {
   position: absolute;
@@ -6296,7 +6296,7 @@ textarea.materialize-textarea {
 }
 
 /* Checkboxes
-   ========================================================================== */
+   ================================ */
 /* CUSTOM CSS CHECKBOXES */
 form p {
   margin-bottom: 10px;
@@ -6508,7 +6508,7 @@ form p:last-child {
 }
 
 /* Switch
-   ========================================================================== */
+   ================================ */
 .switch,
 .switch * {
   -webkit-user-select: none;
@@ -6584,7 +6584,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::after {
 }
 
 /* Select Field
-   ========================================================================== */
+   ================================ */
 select {
   display: none;
 }
@@ -6709,7 +6709,7 @@ select:disabled {
 }
 
 /* File Input
-   ========================================================================== */
+   ================================ */
 .file-field {
   position: relative;
 }
@@ -6749,7 +6749,7 @@ select:disabled {
 }
 
 /* Range
-   ========================================================================== */
+   ================================ */
 .range-field {
   position: relative;
 }
@@ -7840,9 +7840,9 @@ input[type=range]:focus::-ms-fill-upper {
   background-color: #fff;
 }
 
-/* ==========================================================================
+/* ================================
    $BASE-PICKER
-   ========================================================================== */
+   ================================ */
 /**
  * Note: the root picker element should *NOT* be styled more than what's here.
  */
@@ -8005,9 +8005,9 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * For `large` screens, transform into an inline picker.
  */
-/* ==========================================================================
+/* ================================
    CUSTOM MATERIALIZE STYLES
-   ========================================================================== */
+   ================================ */
 .picker__input.picker__input--active {
   border-color: #E3F2FD;
 }
@@ -8024,9 +8024,9 @@ input[type=range]:focus::-ms-fill-upper {
   }
 }
 
-/* ==========================================================================
+/* ================================
    $BASE-DATE-PICKER
-   ========================================================================== */
+   ================================ */
 /**
  * The picker box.
  */
@@ -8312,9 +8312,9 @@ input[type=range]:focus::-ms-fill-upper {
   border-top-color: #aaaaaa;
 }
 
-/* ==========================================================================
+/* ================================
    CUSTOM MATERIALIZE STYLES
-   ========================================================================== */
+   ================================ */
 .picker__box {
   border-radius: 2px;
   overflow: hidden;
@@ -8444,9 +8444,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-color: #a1ded8;
 }
 
-/* ==========================================================================
+/* ================================
    $BASE-TIME-PICKER
-   ========================================================================== */
+   ================================ */
 /**
  * The list of times.
  */
@@ -8557,9 +8557,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   color: #ffffff;
 }
 
-/* ==========================================================================
+/* ================================
    $DEFAULT-TIME-PICKER
-   ========================================================================== */
+   ================================ */
 /**
  * The frame the bounds the time picker.
  */

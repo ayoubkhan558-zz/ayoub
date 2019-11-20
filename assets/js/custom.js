@@ -215,7 +215,7 @@
 	
 	
 
-// main-slider ==================== start
+// main-slider ====== start
 var owl = $('.main-slider');
 owl.owlCarousel({
 	items:1,
@@ -224,9 +224,9 @@ owl.owlCarousel({
 	animateIn: 'flipInX',
 	autoplayTimeout:5000
 })
-// main-slider ==================== end
+// main-slider ====== end
 
-// testomonial-carousel ==================== start
+// testomonial-carousel ====== start
 var owl = $('#testomonial-carousel');
 owl.owlCarousel({
 	items:1,
@@ -237,7 +237,7 @@ owl.owlCarousel({
   animateIn: 'fadeIn',
   autoplayTimeout:5000
 })
-// testomonial-carousel ==================== end
+// testomonial-carousel ====== end
 
 
 $('.first.circle').circleProgress({
