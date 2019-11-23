@@ -1,0 +1,146 @@
+.experience-left {
+  z-index: 0;
+  position: relative;
+  padding: 60px 60px;
+  background: #2c2c2c;
+  box-shadow: 0px 10px 40px 0px rgba(1, 1, 1, 0.1);
+}
+
+.experience-left-item-area {
+  z-index: 1;
+  height: 550px;
+  padding: 0px 30px;
+  overflow-y: scroll;
+}
+
+.border-left {
+  padding: 20px 30px 0px 30px;
+  border-left: 2px solid #424242;
+}
+
+.experience-left-item-area::-webkit-scrollbar {
+  width: 2px;
+  height: 100px;
+}
+
+.experience-left-item-area::-webkit-scrollbar-track {
+  width: 2px;
+  background-color: #424242;
+}
+
+.experience-left-item-area::-webkit-scrollbar-thumb {
+  background-color: #2196f3;
+}
+
+.experience-left .experience-item {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.experience-left .experience-item:last-child {
+  margin-bottom: 0px;
+}
+
+.experience-left .experience-item:before,
+.experience-left .experience-item:after {
+  content: '';
+  position: absolute;
+}
+
+.experience-left .experience-item:before {
+  top: -3px;
+  left: -44px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 3px solid red;
+  background-color: transparent;
+}
+
+.experience-left .experience-item:after {
+  top: 4px;
+  left: -37px;
+  width: 11px;
+  height: 11px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.experience-left .experience-item .post-mate {
+  margin: 20px 0px;
+}
+
+.experience-left .experience-item .city {
+  color: rgb(161, 161, 161);
+  font-weight: 500;
+  font-style: italic;
+}
+
+.experience-left .experience-item .post-mate li span.current {
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.experience-left .experience-item a {
+  margin-top: 25px;
+  font-style: italic;
+}
+
+.experience-item.exp1:before {
+  border-color: #2196f3;
+}
+
+.experience-item.exp1:after {
+  background-color: #2196f3;
+}
+
+.experience-item.exp2:before {
+  border-color: #26a69a;
+}
+
+.experience-item.exp2:after {
+  background-color: #26a69a;
+}
+
+.experience-item.exp3:before {
+  border-color: #ef5350;
+}
+
+.experience-item.exp3:after {
+  background-color: #ef5350;
+}
+
+
+
+/* experience-right
+.................................................. */
+.experience-right {
+  background: #2c2c2c;
+  box-shadow: 0px 10px 40px 0px rgba(1, 1, 1, 0.1);
+}
+
+.experience-right .achivement {
+  padding: 67px 50px 60px 60px;
+  border-bottom: 1px solid #424242;
+}
+
+.experience-right .achivement:last-child {
+  border-bottom: none;
+}
+
+.experience-right .achivement h2 {
+  margin-bottom: 30px;
+}
+
+.experience-right .achivement h2>.thumb {
+  float: left;
+  color: #4f4f4f;
+  font-size: 54px;
+  font-weight: 700;
+  margin-top: -13px;
+  margin-right: 10px;
+}
+
+.experience-right .achivement h2>.thumb.achived-color {
+  color: #fbc02d !important;
+}

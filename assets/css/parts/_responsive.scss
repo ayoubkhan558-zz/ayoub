@@ -157,11 +157,10 @@ custom - media screen and (max-width: 1366px) Start
 		box-shadow: 0px 10px 40px 0px rgba(1, 1, 1, 0.1);
 	}
 	#testomonial-carousel .item .testomonial-img {
-		width: 32.99%;
+		width: 30%;
 	}
 	#testomonial-carousel .item .testomonial-contant {
-		width: 67%;
-		padding: 41px 80px 41px 40px;
+		width: 69%;
 		margin-top: 0px;
 		box-shadow: none;
 		margin-right: 0px;
@@ -271,16 +270,13 @@ custom - media screen and (max-width: 1366px) Start
 		display: none;
 	}
 	#testomonial-carousel .item .testomonial-img {
-		width: 32.333%;
+		width: 30%;
 	}
 	#testomonial-carousel .item .testomonial-contant {
-		width: 67%;
-		padding: 44px;
+		width: 69%;
 		margin-top: 0px;
 		box-shadow: none;
 		margin-right: 0px;
-		padding-top: 76px;
-		padding-bottom: 76px;
 	}
 	#testomonial-carousel {
 		height: 280px;
@@ -404,54 +400,11 @@ custom - media screen and (max-width: 1366px) Start
 		font-size: 24px;
 		padding: 0px 25px;
 	}
-	.header-section nav.main-nav ul.alternative-menu > li.alt-search-area {
-		width: 85%;
-		height: 50px;
-		display: table;
-		position: relative;
-	}
-	.header-section nav.main-nav ul.alternative-menu > li form input.alternative-search {
-		margin: 0;
-		height:76px;
-		border: none;
-		color: #fff;
-		border-radius: 2px;
-		transition: all .4s ease-in-out;
-		background-color: transparent;
-	}
-	.header-section nav.main-nav ul.alternative-menu > li form input[type=search]:focus:not([readonly]) {
-		border: none;
-		box-shadow: none;
-		background-color: #222222;
-		box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.1);
-	}
 	.header-section nav.main-nav ul.alternative-menu > li form label.label-icon {
 		top: 0;
 		right: 17px;
 		font-size: 18px;
 		position: absolute;
-	}
-	.header-section nav.main-nav ul.alternative-menu > li form input[type=search]:focus:not([readonly]) + label.label-icon {
-		color: #2196f3;
-	}
-	
-	.alt-search-area input{
-	width:calc(100% - 40px);
-	float:left;
-	padding-left:30px;
-	}
-	.alt-search-area button{
-		top: 0;
-		width:40px;
-		float:right;
-		right: 0;
-		height:76px;
-		font-size: 18px;
-		position: absolute;
-		background:transparent;
-		border:none;
-		color:#fff;
-		padding-right:30px;
 	}
 	
 	.main-nav-ul {
@@ -492,12 +445,6 @@ custom - media screen and (max-width: 1366px) Start
 		width: 100%;
 		height: auto;
 		display: table;
-	}
-	.portfolio-search {
-		width: 100%;
-		margin-top: 12px;
-		padding: 30px 0px;
-		border-top: 1px solid #f0f0f0;
 	}
 	.my-portfolio-section .element-item {
 		width: 50%;
@@ -551,10 +498,6 @@ custom - media screen and (max-width: 1366px) Start
 ------------------------------------------------------------------------------------------ */
 
 @media screen and (max-width: 767px){
-	.header-section nav.main-nav ul.alternative-menu > li.alt-search-area {
-		width: 80%;
-
-	}
 	.my-portfolio-section .button-group .button {
 		padding: 0px 20px;
 	}
@@ -616,10 +559,6 @@ custom - media screen and (max-width: 1366px) Start
 	.Section-title span {
 		top: -10px;
 		font-size: 26px;
-	}
-
-	.header-section nav.main-nav ul.alternative-menu > li.alt-search-area {
-		width: 70%;
 	}
 
 	.main-slider .item {
@@ -822,11 +761,6 @@ custom - media screen and (max-width: 1366px) Start
 		height: 150px;
 		padding: 15px;
 	}
-	.header-section nav.main-nav ul.alternative-menu > li.alt-search-area {
-		width: 55%;
-		padding-left: 15px;
-	}
-
 }
 @media (max-width: 1199px){
 	.contact-me-section .contact-right{
