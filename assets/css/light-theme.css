@@ -24,8 +24,12 @@ h6 {
 .my-portfolio-section .button-group,
 .software-tools ul.tags li.tag-icon,
 .software-tools ul.tags li:hover,
-.contact-me-section .contact-left .cont-item {
+.contact-me-section .contact-left .cont-item,
+.contact-me-section .contact-box .cont-item {
   background-color: rgba(0, 0, 0, 0.06) !important; }
+
+.contact-me-section .contact-box .cont-item {
+  padding: 25px 25px; }
 
 /* // End */
 .aboutme-section .styled-t-p {
@@ -111,7 +115,7 @@ button.custom-btn:hover {
   background-color: #1181dd; }
 
 .education-section .accordion .accordion-header span {
-  padding-right: 5px; }
+  padding-right: 10px; }
 
 .education-section .accordion .accordion-header.acco-clr1 span {
   color: #2196f3; }
